@@ -1,0 +1,72 @@
+*
+{
+	padding-top: 0;
+	margin:0;
+}
+html,body
+{
+	background-color: #232323;
+	height: 100%;
+	width: 100%;
+}
+.container
+{
+	width: 40%;
+	margin: 0 auto;
+}
+
+			/* ***************************  for header  *************************** */
+#header
+{
+	color: white;
+	background-color: #4682b4;
+	text-align: center;
+	padding: 20px 0;
+	text-transform: uppercase;
+}
+
+#colorDisplay
+{
+	font-size: 1.8em;
+}
+
+
+/* ***************************  for Bar  *************************** */
+#bar
+{
+	background-color: #fff;
+	padding: 0 20px;
+	text-align: center;
+	font-size: 25px;
+}
+
+.button
+{
+	padding: 0 10px;
+	color: #4682b4;
+}
+.button:hover
+{
+	cursor: pointer;
+	background-color: #4682b4;
+	color: #fff;
+}
+#result
+{
+	display: inline-block;
+	width: 50%;
+}
+
+			/* ***************************  content  *************************** */
+.square
+{
+	width: 30%;
+	padding-bottom: 30%;
+	margin: 1.66% ;
+	     /* (30% x 3 = 90%)  + ( (1.66666%(left margin)+1.66666%(right margin))x3 )  */
+	     /* 90%  + ( 3.333% x 3 )  */
+	     /* 90%  + 9.99 = 100% almost  */
+	float: left;
+	border-radius:20%;
+	transition: all 300ms ease-out;
+}
